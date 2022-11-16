@@ -1,1 +1,56 @@
-[]
+[
+    {
+        "direccionEquipo": "Bolivia 1305",
+        "idEquipo": 1,
+        "jugadores": [
+            {
+                "dniJugador": "23485192",
+                "estado": "Disponible",
+                "idJugador": 1,
+                "nombreJugador": "Frank Fabra"
+            },
+            {
+                "dniJugador": "44567182",
+                "estado": "Disponible",
+                "idJugador": 2,
+                "nombreJugador": "Franco Gomez"
+            },
+            {
+                "dniJugador": "34582192",
+                "estado": "Disponible",
+                "idJugador": 3,
+                "nombreJugador": "Pol Fernandez"
+            }
+        ],
+        "localidadEquipo": "La Paz",
+        "nombreEquipo": "Boca Jrs",
+        "nombreResponsable": "Agustin Sorti"
+    },
+    {
+        "direccionEquipo": "Nunez 100",
+        "idEquipo": 2,
+        "jugadores": [
+            {
+                "dniJugador": "23555871",
+                "estado": "Disponible",
+                "idJugador": 1,
+                "nombreJugador": "Nicolas de la Cruz"
+            },
+            {
+                "dniJugador": "30456829",
+                "estado": "Disponible",
+                "idJugador": 2,
+                "nombreJugador": "Enzo Perez"
+            },
+            {
+                "dniJugador": "43557281",
+                "estado": "Disponible",
+                "idJugador": 3,
+                "nombreJugador": "Santiago Simon"
+            }
+        ],
+        "localidadEquipo": "Buenos Aires",
+        "nombreEquipo": "River Plate",
+        "nombreResponsable": "Jorge Brito"
+    }
+]

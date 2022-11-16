@@ -19,7 +19,7 @@ def crear_interfaz(app, cantidad, indice):
 
     def recrear(app, cantidad): # recrea la interfaz de forma recursiva para c/ jugador
         form_jug.destroy()
-        return crear_interfaz(app, cantidad, indice) if cantidad < 3 else form_jug.destroy()
+        return crear_interfaz(app, cantidad, indice) if cantidad < 11 else form_jug.destroy()
     
     def funcionPrincipal(): # función que realiza las otras funciones
         overwrite (formatFile (getFields ()))

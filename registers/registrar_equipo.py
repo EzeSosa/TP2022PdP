@@ -11,7 +11,8 @@ def crear_interfaz(app): # creando la interfaz de registro
                 'direccionEquipo': lst_vars[1].get(),
                 'localidadEquipo': lst_vars[2].get(),
                 'nombreResponsable': lst_vars[3].get(),
-                'jugadores': []
+                'jugadores': [],
+                'idEquipo': len (getInfo()) + 1
                 }
 
     def formatFile(elem): # agregando un equipo a la lista de equipos

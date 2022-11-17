@@ -3,7 +3,6 @@ from registers import registrar_equipo
 from consult import consultar_equipo
 
 app = tk.Tk() # creando la ventana
-app.title('Sistema Principal') # título de la ventana
 
 config = lambda: app.config(height = 150, width = 370) # config de la ventana
 

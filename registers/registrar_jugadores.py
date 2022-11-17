@@ -6,9 +6,9 @@ def crear_interfaz(app, cantidad, indice):
     form_jug = tk.Toplevel(app, width = 425, height = 165) # creando la nueva ventana
 
     getFields = lambda: { # obteniendo los datos de los campos de la interfaz (como diccionario)
+                'idJugador' : len (getInfo()[indice]['jugadores']) + 1,
                 'nombreJugador': lst_vars[0].get(),
                 'dniJugador': lst_vars[1].get(),
-                'idJugador' : len (getInfo()[indice]['jugadores']) + 1,
                 'estado': 'Disponible'
                 }
     

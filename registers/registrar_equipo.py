@@ -1,23 +1,23 @@
 import tkinter as tk
 from registers import registrar_jugadores
-from module.func import overwrite, getInfo # funciones importadas del módulo de funciones
+from module.func import overwrite, getInfo, capitalizeValues # funciones importadas del módulo de funciones
 
 def crear_interfaz(app): # creando la interfaz de registro
     lst_vars = [tk.StringVar(), tk.StringVar(), tk.StringVar(), tk.StringVar()] # lista de variables para getear los entrys
     form_equipo = tk.Toplevel(app, width = 410, height = 280) # creando la nueva ventana
 
     getFields = lambda: { # obteniendo los datos de los campos de la interfaz (como diccionario)
+                'idEquipo': len (getInfo()) + 1,
                 'nombreEquipo': lst_vars[0].get(),
                 'direccionEquipo': lst_vars[1].get(),
                 'localidadEquipo': lst_vars[2].get(),
                 'nombreResponsable': lst_vars[3].get(),
                 'jugadores': [],
-                'idEquipo': str (len (getInfo()) + 1),
                 }
 
     def formatFile(elem): # agregando un equipo a la lista de equipos
         lst = getInfo()
-        lst.append(elem)
+        lst.append(capitalizeValues (elem))
         return lst
     
     def funcionPrincipal(): # función que realiza las funciones

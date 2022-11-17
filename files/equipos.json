@@ -1,1 +1,44 @@
-[]
+[
+   {
+      "idEquipo": 1,
+      "nombreEquipo": "River Plate",
+      "direccionEquipo": "Nunez 1305",
+      "localidadEquipo": "Buenos Aires",
+      "nombreResponsable": "Martin Demichelis",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Nicolas De La Cruz",
+            "dniJugador": "30405882",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Robert Rojas",
+            "dniJugador": "40339201",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 2,
+      "nombreEquipo": "Boca Juniors",
+      "direccionEquipo": "San Martin 945",
+      "localidadEquipo": "Buenos Aires",
+      "nombreResponsable": "Hugo Ibarra",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Frank Fabra",
+            "dniJugador": "29887371",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Exequiel Zeballos",
+            "dniJugador": "40339510",
+            "estado": "Disponible"
+         }
+      ]
+   }
+]

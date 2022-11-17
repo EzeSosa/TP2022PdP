@@ -21,7 +21,7 @@ def crear_interfaz(app, obj): # creando la nueva interfaz para los equipos
     lblDireccion = lambda: tk.Label (form_datosEquipo, text = f" Dirección del equipo: {obj['direccionEquipo']}", # dirección del equipo
                           font = ('Arial', 12)).place (x = 20, y = 76)
     
-    lblLocalidad = lambda: tk.Label (form_datosEquipo, text = f" Nombre del equipo: {obj['localidadEquipo']}", # localidad del equipo
+    lblLocalidad = lambda: tk.Label (form_datosEquipo, text = f" Localidad del equipo: {obj['localidadEquipo']}", # localidad del equipo
                           font = ('Arial', 12)).place (x = 20, y = 96)
     
     lblNombreRespo = lambda: tk.Label (form_datosEquipo, text = f" Nombre del responsable: {obj['nombreResponsable']}", # responsable del equipo

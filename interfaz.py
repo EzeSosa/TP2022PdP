@@ -7,7 +7,7 @@ app = tk.Tk() # creando la ventana
 config = lambda: app.config(height = 150, width = 370) # config de la ventana
 
 labelfr = lambda: tk.LabelFrame (app, text = " Federación de Hockey ", width = 370, height = 150, # creando el labelframe
-                                  labelanchor = 'n').pack (padx = 10, pady = 10)
+                                 labelanchor = 'n').pack (padx = 10, pady = 10)
 
 regis_equipo = lambda: tk.Button (app, text = 'Registrar Equipo', bg = "#77DD77", # creando el boton para registrar multas
                                   command = lambda: registrar_equipo.crear_interfaz(app), # llamando la función para la nueva ventana

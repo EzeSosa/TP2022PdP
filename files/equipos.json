@@ -1,75 +1,600 @@
 [
    {
       "idEquipo": 1,
-      "nombreEquipo": "River Plate",
-      "direccionEquipo": "Catamarca 1405",
-      "localidadEquipo": "Buenos Aires",
-      "nombreResponsable": "Marcelo Gallardo",
+      "nombreEquipo": "Boston Bruins",
+      "direccionEquipo": "Armonk 405",
+      "localidadEquipo": "New York",
+      "nombreResponsable": "Bobby Orr",
       "jugadores": [
          {
             "idJugador": 1,
-            "nombreJugador": "Nicolas De La Cruz",
-            "dniJugador": "30555201",
+            "nombreJugador": "David Pastrnak",
+            "dniJugador": "40295185",
             "estado": "Disponible"
          },
          {
             "idJugador": 2,
-            "nombreJugador": "Robert Rojas",
-            "dniJugador": "25202105",
+            "nombreJugador": "Jeremy Hudson",
+            "dniJugador": "40291582",
             "estado": "Disponible"
          },
          {
             "idJugador": 3,
-            "nombreJugador": "Santiago Simon",
-            "dniJugador": "40255192",
+            "nombreJugador": "Robert Gomez",
+            "dniJugador": "40291581",
             "estado": "Disponible"
          },
          {
             "idJugador": 4,
-            "nombreJugador": "Enzo Perez",
-            "dniJugador": "35102591",
+            "nombreJugador": "John Mayer",
+            "dniJugador": "40291581",
             "estado": "Disponible"
          },
          {
             "idJugador": 5,
-            "nombreJugador": "Franco Armani",
-            "dniJugador": "30559102",
+            "nombreJugador": "David Clinton",
+            "dniJugador": "40295185",
             "estado": "Disponible"
          },
          {
             "idJugador": 6,
-            "nombreJugador": "Agustin Palavecino",
-            "dniJugador": "39285102",
+            "nombreJugador": "Daniel West",
+            "dniJugador": "30958124",
             "estado": "Disponible"
          },
          {
             "idJugador": 7,
-            "nombreJugador": "Bruno Zuculini",
-            "dniJugador": "35195192",
+            "nombreJugador": "Kevin Wilson",
+            "dniJugador": "30591852",
             "estado": "Disponible"
          },
          {
             "idJugador": 8,
-            "nombreJugador": "Emanuel Mammana",
-            "dniJugador": "30559125",
+            "nombreJugador": "John Krazinski",
+            "dniJugador": "30594182",
             "estado": "Disponible"
          },
          {
             "idJugador": 9,
-            "nombreJugador": "Milton Casco",
-            "dniJugador": "30591291",
+            "nombreJugador": "Steve Carell",
+            "dniJugador": "40291582",
             "estado": "Disponible"
          },
          {
             "idJugador": 10,
-            "nombreJugador": "Miguel Borja",
-            "dniJugador": "40125105",
+            "nombreJugador": "Kevin Malone",
+            "dniJugador": "40291582",
             "estado": "Disponible"
          },
          {
             "idJugador": 11,
-            "nombreJugador": "Lucas Beltran",
-            "dniJugador": "39591295",
+            "nombreJugador": "Dwight Schrute",
+            "dniJugador": "40192582",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 2,
+      "nombreEquipo": "Buffalo Sabres",
+      "direccionEquipo": "Westcoast 209",
+      "localidadEquipo": "New York",
+      "nombreResponsable": "Dominik Hasek",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Tage Thompson",
+            "dniJugador": "30591285",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Al Pacino",
+            "dniJugador": "30555192",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 3,
+            "nombreJugador": "Jim Halpert",
+            "dniJugador": "40192581",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 4,
+            "nombreJugador": "Michael Scott",
+            "dniJugador": "40192581",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "Todd Packer",
+            "dniJugador": "30555192",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "David Wallace",
+            "dniJugador": "30444195",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Creed Button",
+            "dniJugador": "40195182",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Stanley Hudson",
+            "dniJugador": "30559185",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Sting Roberts",
+            "dniJugador": "30528591",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "Guitar John",
+            "dniJugador": "30591582",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Elton John",
+            "dniJugador": "30559182",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 3,
+      "nombreEquipo": "Detroit Red Wings",
+      "direccionEquipo": "Newville 109",
+      "localidadEquipo": "New York",
+      "nombreResponsable": "Gordie Howie",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Dylan Larkin",
+            "dniJugador": "40291582",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Ezequiel Sosa",
+            "dniJugador": "44297679",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 3,
+            "nombreJugador": "Robert Fischer",
+            "dniJugador": "40591285",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 4,
+            "nombreJugador": "Magnus Carlsen",
+            "dniJugador": "30559158",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "Fabiano Caruana",
+            "dniJugador": "30958102",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "Gustav Earn",
+            "dniJugador": "30591825",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Dominic Thiem",
+            "dniJugador": "30591884",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Rafael Nadal",
+            "dniJugador": "20591751",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Roger Federer",
+            "dniJugador": "40591852",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "Michael Laudrup",
+            "dniJugador": "30958102",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Joaquin Low",
+            "dniJugador": "30952851",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 4,
+      "nombreEquipo": "Montrieal Canadiens",
+      "direccionEquipo": "Boston 4051",
+      "localidadEquipo": "New York",
+      "nombreResponsable": "Maurice Richard",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Nick Suzuki",
+            "dniJugador": "30591825",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Bastian Rogers",
+            "dniJugador": "40591958",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 3,
+            "nombreJugador": "Robert Madness",
+            "dniJugador": "30591928",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 4,
+            "nombreJugador": "Robert California",
+            "dniJugador": "30582777",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "James Hilbert",
+            "dniJugador": "45918525",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "Brendan Rogers",
+            "dniJugador": "40591827",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Aaron Ramsdale",
+            "dniJugador": "40591925",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Gabriel Martinelli",
+            "dniJugador": "35199582",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Gabriel Jesus",
+            "dniJugador": "30519285",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "Lester Well",
+            "dniJugador": "30591572",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Aaron River",
+            "dniJugador": "40928581",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 5,
+      "nombreEquipo": "Ottawa Senators",
+      "direccionEquipo": "Lessier 884",
+      "localidadEquipo": "Ottawa",
+      "nombreResponsable": "Daniel Alfredsson",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Brady Tkachuk",
+            "dniJugador": "30958125",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Andy Bernard",
+            "dniJugador": "40928581",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 3,
+            "nombreJugador": "Maddison Albert",
+            "dniJugador": "30958172",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 4,
+            "nombreJugador": "John Roberts",
+            "dniJugador": "45185925",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "Kevin Halpert",
+            "dniJugador": "40592857",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "Gustavo Cerati",
+            "dniJugador": "40598528",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Norbert Rodgers",
+            "dniJugador": "35999825",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Brian Wilson",
+            "dniJugador": "40959281",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Mendy Wall",
+            "dniJugador": "44059124",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "Ashton Will",
+            "dniJugador": "40959182",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Kevin Wallace",
+            "dniJugador": "40958172",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 6,
+      "nombreEquipo": "Tampa Bay Lightning",
+      "direccionEquipo": "Westside 104",
+      "localidadEquipo": "Washington",
+      "nombreResponsable": "Martin St Louis",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Nikita Kucherov",
+            "dniJugador": "30591852",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Thierry Henry",
+            "dniJugador": "30591852",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 3,
+            "nombreJugador": "Albert Einstein",
+            "dniJugador": "30591528",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 4,
+            "nombreJugador": "John Lennon",
+            "dniJugador": "40195824",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "Richard Arjon",
+            "dniJugador": "40591582",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "Louis Tomlison",
+            "dniJugador": "40591852",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Harry Styles",
+            "dniJugador": "40992811",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Liam Payne",
+            "dniJugador": "40958125",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Wayne Rooney",
+            "dniJugador": "40518252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "Eltran Rodgers",
+            "dniJugador": "40591252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Andy Bernard",
+            "dniJugador": "40591852",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 7,
+      "nombreEquipo": "Toronto Maple Leafs",
+      "direccionEquipo": "Westcoast 928",
+      "localidadEquipo": "Toronto",
+      "nombreResponsable": "Dave Keon",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Gilbert Wank",
+            "dniJugador": "40295182",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Andy Robertson",
+            "dniJugador": "40195825",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 3,
+            "nombreJugador": "Alexander Arnold",
+            "dniJugador": "40595666",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 4,
+            "nombreJugador": "Kevin Philipps",
+            "dniJugador": "40195725",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "Polan Earn",
+            "dniJugador": "40591525",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "James Reece",
+            "dniJugador": "40591525",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Kyle Walker",
+            "dniJugador": "40515721",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Auston Matthews",
+            "dniJugador": "40518275",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Jim Well",
+            "dniJugador": "40591752",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "Evan Wellson",
+            "dniJugador": "40581752",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Nahuel Molina",
+            "dniJugador": "40591752",
+            "estado": "Disponible"
+         }
+      ]
+   },
+   {
+      "idEquipo": 8,
+      "nombreEquipo": "Carolina Hurricanes",
+      "direccionEquipo": "Joan 185",
+      "localidadEquipo": "Carolina",
+      "nombreResponsable": "Glen Wesley",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Sebastian Aho",
+            "dniJugador": "40285125",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Kevin Trippier",
+            "dniJugador": "40581252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 3,
+            "nombreJugador": "Well Webson",
+            "dniJugador": "40581252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 4,
+            "nombreJugador": "Austin Wankers",
+            "dniJugador": "30582152",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "Evan Bourne",
+            "dniJugador": "40581252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "Hulk Hogan",
+            "dniJugador": "40285122",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Keith Richards",
+            "dniJugador": "40581252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Robert Plank",
+            "dniJugador": "40581252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Jimmy Page",
+            "dniJugador": "40581252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "David Gilmour",
+            "dniJugador": "40581252",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Roger Waters",
+            "dniJugador": "40581222",
             "estado": "Disponible"
          }
       ]

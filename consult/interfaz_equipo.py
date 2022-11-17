@@ -7,32 +7,32 @@ def crear_interfaz(app, obj): # creando la nueva interfaz para los equipos
                                               labelanchor = 'n').pack (padx = 10, pady = 5)
     
     def mostrar_jugadores(id, desp):
-        tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['idJugador']}", font = ('Arial', 11)). place (x = 20, y = 210 + desp) # ID del jugador obtenido
-        tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['nombreJugador']}", font = ('Arial', 11)). place (x = 80, y = 210 + desp) # nombre del jugador obtenido
-        tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['dniJugador']}", font = ('Arial', 11)). place (x = 310, y = 210 + desp) # DNI del jugador obtenido
+        tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['idJugador']}", font = ('Arial', 11)). place (x = 20, y = 205 + desp) # ID del jugador obtenido
+        tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['nombreJugador']}", font = ('Arial', 11)). place (x = 80, y = 205 + desp) # nombre del jugador obtenido
+        tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['dniJugador']}", font = ('Arial', 11)). place (x = 310, y = 205 + desp) # DNI del jugador obtenido
         return mostrar_jugadores(id + 1, desp + 20) if id + 1 < len(obj['jugadores']) else 0 # se llama recursivamente
 
     lblNombre = lambda: tk.Label (form_datosEquipo, text = f" Nombre del equipo: {obj['nombreEquipo']}", # nombre del equipo
-                          font = ('Arial', 12)).place (x = 20, y = 41)
+                          font = ('Arial', 12)).place (x = 20, y = 36)
 
     lblId = lambda: tk.Label (form_datosEquipo, text = f" ID del equipo: {obj['idEquipo']}", # ID del equipo
-                          font = ('Arial', 12)).place (x = 20, y = 61)
+                          font = ('Arial', 12)).place (x = 20, y = 56)
     
     lblDireccion = lambda: tk.Label (form_datosEquipo, text = f" Dirección del equipo: {obj['direccionEquipo']}", # dirección del equipo
-                          font = ('Arial', 12)).place (x = 20, y = 81)
+                          font = ('Arial', 12)).place (x = 20, y = 76)
     
     lblLocalidad = lambda: tk.Label (form_datosEquipo, text = f" Nombre del equipo: {obj['localidadEquipo']}", # localidad del equipo
-                          font = ('Arial', 12)).place (x = 20, y = 101)
+                          font = ('Arial', 12)).place (x = 20, y = 96)
     
     lblNombreRespo = lambda: tk.Label (form_datosEquipo, text = f" Nombre del responsable: {obj['nombreResponsable']}", # responsable del equipo
-                          font = ('Arial', 12)).place (x = 20, y = 121)
+                          font = ('Arial', 12)).place (x = 20, y = 116)
     
-    lblFrJugadores = lambda: tk.LabelFrame (form_datosEquipo, text = " Jugadores ", width = 400, height = 280, # labelframe de los jugadores
+    lblFrJugadores = lambda: tk.LabelFrame (form_datosEquipo, text = "   Jugadores   ", width = 400, height = 280, # labelframe de los jugadores
                                             labelanchor = 'n').pack (padx = 10, pady = 10)
     
-    lblIdJug = lambda: tk.Label (form_datosEquipo, text = "ID", font = ('Arial', 12)).place (x = 20, y = 200) # ID jugadores
-    lblNombreJug = lambda: tk.Label (form_datosEquipo, text = "NOMBRE", font = ('Arial', 12)).place (x = 80, y = 200) # NOMBRE jugadores
-    lblDNIJug = lambda: tk.Label (form_datosEquipo, text = "DNI", font = ('Arial', 12)).place (x = 310, y = 200) # DNI jugadores
+    lblIdJug = lambda: tk.Label (form_datosEquipo, text = "ID", font = ('Arial', 12)).place (x = 20, y = 195) # ID jugadores
+    lblNombreJug = lambda: tk.Label (form_datosEquipo, text = "NOMBRE", font = ('Arial', 12)).place (x = 80, y = 195) # NOMBRE jugadores
+    lblDNIJug = lambda: tk.Label (form_datosEquipo, text = "DNI", font = ('Arial', 12)).place (x = 310, y = 195) # DNI jugadores
 
     lblFrDatosEquipo(), lblNombre(), lblId(),
     lblDireccion(), lblLocalidad(), lblNombreRespo(),

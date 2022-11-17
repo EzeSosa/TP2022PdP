@@ -40,5 +40,26 @@
             "estado": "Disponible"
          }
       ]
+   },
+   {
+      "idEquipo": 3,
+      "nombreEquipo": "Talleres",
+      "direccionEquipo": "Catamarca 100",
+      "localidadEquipo": "Cordoba",
+      "nombreResponsable": "Javier Gandolfi",
+      "jugadores": [
+         {
+            "idJugador": 1,
+            "nombreJugador": "Rafael Perez",
+            "dniJugador": "23450100",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 2,
+            "nombreJugador": "Diego Valoyes",
+            "dniJugador": "25400105",
+            "estado": "Disponible"
+         }
+      ]
    }
 ]

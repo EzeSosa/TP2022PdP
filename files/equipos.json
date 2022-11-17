@@ -2,62 +2,74 @@
    {
       "idEquipo": 1,
       "nombreEquipo": "River Plate",
-      "direccionEquipo": "Nunez 1305",
+      "direccionEquipo": "Catamarca 1405",
       "localidadEquipo": "Buenos Aires",
-      "nombreResponsable": "Martin Demichelis",
+      "nombreResponsable": "Marcelo Gallardo",
       "jugadores": [
          {
             "idJugador": 1,
             "nombreJugador": "Nicolas De La Cruz",
-            "dniJugador": "30405882",
+            "dniJugador": "30555201",
             "estado": "Disponible"
          },
          {
             "idJugador": 2,
             "nombreJugador": "Robert Rojas",
-            "dniJugador": "40339201",
-            "estado": "Disponible"
-         }
-      ]
-   },
-   {
-      "idEquipo": 2,
-      "nombreEquipo": "Boca Juniors",
-      "direccionEquipo": "San Martin 945",
-      "localidadEquipo": "Buenos Aires",
-      "nombreResponsable": "Hugo Ibarra",
-      "jugadores": [
-         {
-            "idJugador": 1,
-            "nombreJugador": "Frank Fabra",
-            "dniJugador": "29887371",
+            "dniJugador": "25202105",
             "estado": "Disponible"
          },
          {
-            "idJugador": 2,
-            "nombreJugador": "Exequiel Zeballos",
-            "dniJugador": "40339510",
-            "estado": "Disponible"
-         }
-      ]
-   },
-   {
-      "idEquipo": 3,
-      "nombreEquipo": "Talleres",
-      "direccionEquipo": "Catamarca 100",
-      "localidadEquipo": "Cordoba",
-      "nombreResponsable": "Javier Gandolfi",
-      "jugadores": [
-         {
-            "idJugador": 1,
-            "nombreJugador": "Rafael Perez",
-            "dniJugador": "23450100",
+            "idJugador": 3,
+            "nombreJugador": "Santiago Simon",
+            "dniJugador": "40255192",
             "estado": "Disponible"
          },
          {
-            "idJugador": 2,
-            "nombreJugador": "Diego Valoyes",
-            "dniJugador": "25400105",
+            "idJugador": 4,
+            "nombreJugador": "Enzo Perez",
+            "dniJugador": "35102591",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 5,
+            "nombreJugador": "Franco Armani",
+            "dniJugador": "30559102",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 6,
+            "nombreJugador": "Agustin Palavecino",
+            "dniJugador": "39285102",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 7,
+            "nombreJugador": "Bruno Zuculini",
+            "dniJugador": "35195192",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 8,
+            "nombreJugador": "Emanuel Mammana",
+            "dniJugador": "30559125",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 9,
+            "nombreJugador": "Milton Casco",
+            "dniJugador": "30591291",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 10,
+            "nombreJugador": "Miguel Borja",
+            "dniJugador": "40125105",
+            "estado": "Disponible"
+         },
+         {
+            "idJugador": 11,
+            "nombreJugador": "Lucas Beltran",
+            "dniJugador": "39591295",
             "estado": "Disponible"
          }
       ]

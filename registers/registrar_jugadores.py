@@ -1,5 +1,5 @@
 import tkinter as tk
-from module.func import overwrite, getInfo
+from module.func import overwrite, getInfo, capitalizeValues
 
 def crear_interfaz(app, cantidad, indice):
     lst_vars = [tk.StringVar(), tk.StringVar()] # lista de variables para getear los entrys
@@ -11,15 +11,19 @@ def crear_interfaz(app, cantidad, indice):
                 'idJugador' : len (getInfo()[indice]['jugadores']) + 1,
                 'estado': 'Disponible'
                 }
+    
+    def endForms(): # para eliminar los formularios de registro una vez se registraron los datos
+        form_jug.destroy()
+        app.destroy()
 
     def formatFile(elem): # para agregar el elemento al diccionario
         lst = getInfo()
-        lst[indice]['jugadores'].append(elem)
-        return lst
+        lst[indice]['jugadores'].append(capitalizeValues (elem))
+        return lst #devolvemos la lista con los elementos capitalizados
 
     def recrear(app, cantidad): # recrea la interfaz de forma recursiva para c/ jugador
         form_jug.destroy()
-        return crear_interfaz(app, cantidad, indice) if cantidad < 11 else form_jug.destroy()
+        return crear_interfaz(app, cantidad, indice) if cantidad < 2 else endForms() # llama nuevamente a la función o destruye los formularios
     
     def funcionPrincipal(): # función que realiza las otras funciones
         overwrite (formatFile (getFields ()))

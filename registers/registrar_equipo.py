@@ -1,6 +1,6 @@
 import tkinter as tk
 from registers import registrar_jugadores
-from module.func import overwrite, getInfo # funciones importadas de otro módulo
+from module.func import overwrite, getInfo # funciones importadas del módulo de funciones
 
 def crear_interfaz(app): # creando la interfaz de registro
     lst_vars = [tk.StringVar(), tk.StringVar(), tk.StringVar(), tk.StringVar()] # lista de variables para getear los entrys
@@ -12,7 +12,7 @@ def crear_interfaz(app): # creando la interfaz de registro
                 'localidadEquipo': lst_vars[2].get(),
                 'nombreResponsable': lst_vars[3].get(),
                 'jugadores': [],
-                'idEquipo': len (getInfo()) + 1
+                'idEquipo': str (len (getInfo()) + 1),
                 }
 
     def formatFile(elem): # agregando un equipo a la lista de equipos

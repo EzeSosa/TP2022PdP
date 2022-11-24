@@ -7,11 +7,13 @@ def crear_interfaz(app): # creando la nueva interfaz de consulta
     varGetEntry = tk.StringVar() # variable para getear el entry
     form_consultEquipo = tk.Toplevel(app, width = 410, height = 150) # creando la nueva ventana
 
-    getEquipo = lambda nombre: list (filter (lambda equipo: equipo['nombreEquipo'] == nombre, getInfo ())) # filtra los equipos que coincidan con el nombre ingresado
+    getEquipo = lambda nombre: list (filter 
+    (lambda equipo: equipo['nombreEquipo'] == nombre, getInfo ())) 
+    # filtra los equipos que coincidan con el nombre ingresado
 
     def funcionPrincipal(): # consultamos el equipo: si existe, creamos una interfaz para mostrar sus datos. si no existe, mostramos un msj de error
         try:
-            interfaz_equipo.crear_interfaz(form_consultEquipo, getEquipo(varGetEntry.get())[0]) # llamamos a la interfaz que muestra los elementos
+            interfaz_equipo.crear_interfaz(form_consultEquipo, getEquipo (varGetEntry.get())[0]) # llamamos a la interfaz que muestra los elementos
         except:
             messagebox.showerror('Error', '¡El equipo no existe!')
 

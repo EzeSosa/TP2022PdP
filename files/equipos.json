@@ -5,7 +5,12 @@
       "direccionEquipo": "Armonk 405",
       "localidadEquipo": "New York",
       "nombreResponsable": "Bobby Orr",
-      "ult5puestos": [1, 3, 2, 1],
+      "ult5puestos": [
+         1,
+         3,
+         2,
+         1
+      ],
       "jugadores": [
          {
             "idJugador": 1,
@@ -81,7 +86,12 @@
       "direccionEquipo": "Westcoast 209",
       "localidadEquipo": "New York",
       "nombreResponsable": "Dominik Hasek",
-      "ult5puestos": [2, 8, 3, 5],
+      "ult5puestos": [
+         2,
+         8,
+         3,
+         5
+      ],
       "jugadores": [
          {
             "idJugador": 1,
@@ -157,7 +167,12 @@
       "direccionEquipo": "Newville 109",
       "localidadEquipo": "New York",
       "nombreResponsable": "Gordie Howie",
-      "ult5puestos": [3, 4, 4, 3],
+      "ult5puestos": [
+         3,
+         4,
+         4,
+         3
+      ],
       "jugadores": [
          {
             "idJugador": 1,
@@ -233,7 +248,12 @@
       "direccionEquipo": "Boston 4051",
       "localidadEquipo": "New York",
       "nombreResponsable": "Maurice Richard",
-      "ult5puestos": [4, 7, 5, 4],
+      "ult5puestos": [
+         4,
+         7,
+         5,
+         4
+      ],
       "jugadores": [
          {
             "idJugador": 1,
@@ -309,7 +329,12 @@
       "direccionEquipo": "Lessier 884",
       "localidadEquipo": "Ottawa",
       "nombreResponsable": "Daniel Alfredsson",
-      "ult5puestos": [5, 1, 6, 7],
+      "ult5puestos": [
+         5,
+         1,
+         6,
+         7
+      ],
       "jugadores": [
          {
             "idJugador": 1,
@@ -385,7 +410,12 @@
       "direccionEquipo": "Westside 104",
       "localidadEquipo": "Washington",
       "nombreResponsable": "Martin St Louis",
-      "ult5puestos": [6, 2, 7, 8],
+      "ult5puestos": [
+         6,
+         2,
+         7,
+         8
+      ],
       "jugadores": [
          {
             "idJugador": 1,
@@ -461,7 +491,12 @@
       "direccionEquipo": "Westcoast 928",
       "localidadEquipo": "Toronto",
       "nombreResponsable": "Dave Keon",
-      "ult5puestos": [7, 6, 8, 6],
+      "ult5puestos": [
+         7,
+         6,
+         8,
+         6
+      ],
       "jugadores": [
          {
             "idJugador": 1,
@@ -537,7 +572,12 @@
       "direccionEquipo": "Joan 185",
       "localidadEquipo": "Carolina",
       "nombreResponsable": "Glen Wesley",
-      "ult5puestos": [8, 5, 1, 2],
+      "ult5puestos": [
+         8,
+         5,
+         1,
+         2
+      ],
       "jugadores": [
          {
             "idJugador": 1,

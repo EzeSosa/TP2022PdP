@@ -1,7 +1,7 @@
 import tkinter as tk
 
 def crear_interfaz(app, obj): # creando la nueva interfaz para los equipos
-    form_datosEquipo = tk.Toplevel(app, width = 410, height = 445) # creando la nueva ventana
+    form_datosEquipo = tk.Toplevel (app, width = 410, height = 445) # creando la nueva ventana
 
     lblFrDatosEquipo = lambda: tk.LabelFrame (form_datosEquipo, text = " Datos del Equipo ", width = 400, height = 150, # creando el labelframe
                                               labelanchor = 'n').pack (padx = 10, pady = 5)
@@ -10,7 +10,7 @@ def crear_interfaz(app, obj): # creando la nueva interfaz para los equipos
         tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['idJugador']}", font = ('Arial', 11)). place (x = 20, y = 205 + desp) # ID del jugador obtenido
         tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['nombreJugador']}", font = ('Arial', 11)). place (x = 80, y = 205 + desp) # nombre del jugador obtenido
         tk.Label (form_datosEquipo, text = f"{obj['jugadores'][id]['dniJugador']}", font = ('Arial', 11)). place (x = 310, y = 205 + desp) # DNI del jugador obtenido
-        return mostrar_jugadores(id + 1, desp + 20) if id + 1 < len(obj['jugadores']) else 0 # se llama recursivamente
+        return mostrar_jugadores(id + 1, desp + 20) if id + 1 < len (obj['jugadores']) else 0 # se llama recursivamente
 
     lblNombre = lambda: tk.Label (form_datosEquipo, text = f" Nombre del equipo: {obj['nombreEquipo']}", # nombre del equipo
                           font = ('Arial', 12)).place (x = 20, y = 36)
